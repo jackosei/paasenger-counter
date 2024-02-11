@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, .60)), url("station.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, .75)), url("station.jpg");
     background-size: cover;
     font-family: Quicksand, Roboto, Ubuntu, sans-serif;
     text-align: center;
@@ -7,6 +7,8 @@ body {
     color: #fff;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .container {
